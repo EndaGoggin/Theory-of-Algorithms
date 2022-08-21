@@ -36,3 +36,39 @@ it, and how to run the notebooks.
 of work.
 
 All three of these files are in the base directory of this repository above.
+
+## Requirements to run the Notebooks
+### Step 1 - Clone the repository using one of 3 commands
+***
+
+HTTPS
+```
+https://github.com/EndaGoggin/Theory-of-Algorithms.git
+```
+SSH
+```
+git@github.com:EndaGoggin/Theory-of-Algorithms.git
+```
+Github CLI
+```
+gh repo clone EndaGoggin/Theory-of-Algorithms
+```
+
+### Step 2 - Install Anaconda on your machine from this link
+***
+```
+https://www.anaconda.com/products/distribution
+```
+### Step 3 - Install Jupyter Lab using Anacondas package manager
+***
+```
+conda install -c conda-forge jupyterlab
+```
+
+### Step 4 - Run this command in the repository root folder (Theory-of-Algoriths)
+***
+```
+jupyter lab
+```
+### Step 5 - Use the opened browser window to select wither Notebook on the left hand side of the screen
+
